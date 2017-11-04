@@ -4,3 +4,7 @@ git status 狀態
 git add xx.html
 
 工作區 -add-> 暫存區-commit->倉儲repo
+
+reset head^ --soft
+reset head^ --hard
+(head:只像目前的所在分支 ^:後退一次 ~10:後退10次)
