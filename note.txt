@@ -30,3 +30,5 @@ git reflog可以看到所有HEAD移動的節點位置
 
 ORIG_HEAD
 危險操作會自動紀錄在這
+
+rebase 變基
