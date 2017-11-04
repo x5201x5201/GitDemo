@@ -1,0 +1,6 @@
+git init 初始
+git status 狀態
+	untracked 未被追蹤
+git add xx.html
+
+工作區 -add-> 暫存區-commit->倉儲repo
