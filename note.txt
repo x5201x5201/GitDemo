@@ -8,3 +8,25 @@ git add xx.html
 reset head^ --soft
 reset head^ --hard
 (head:只像目前的所在分支 ^:後退一次 ~10:後退10次)
+reset 0e8frd --hard 
+
+git add --all (較沒有限制)
+git add .
+
+--------------------------------------------
+分支 branch
+git branch cat 新增一個cat貼紙
+git checkout cat head換到指向cat
+git checkout master head換到指向master
+git merge cat
+git branch -d cat 刪除這個分支
+(不影響)
+
+detached HEAD ->斷頭警告:你的HEAD沒有指向任何分支
+
+git merge cat --no-ff 不要用快走模式
+
+git reflog可以看到所有HEAD移動的節點位置
+
+ORIG_HEAD
+危險操作會自動紀錄在這
